@@ -3,6 +3,7 @@ font-family: 'Arapey', serif;
 font-family: 'Reem Kufi', sans-serif;*/
 body {
     margin: 0;
+    font-family: 'Reem Kufi', sans-serif;
 }
 .Section1 {
     height: 100vh;
@@ -18,4 +19,78 @@ body {
 
 .Logo {
     height: 60%;
+}
+
+.nav-bar {
+    height:70px;
+    width: 100%;
+    background-color: #7BC6E4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+    padding-right: 140px;
+    position: fixed;
+    top: 0;
+}
+
+.nav-bar > .Logo {
+   height: 90%;
+   width: 80px;
+   margin-right: auto;
+   padding-left: 140px;
+}
+
+.nav-bar > h3 {
+    color: white;
+    font-weight: 400;
+    padding-right: 30px;
+}
+
+.Section2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Section2 > p {
+    color: #7BC6E4;
+    font-size: 80px;
+    padding-left: 140px;
+}
+
+.Polaroid-Col{
+    position: relative;
+}
+
+.destination1 {
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 500px;
+}
+
+.destination2 {
+    position:absolute;
+    width: 500px;
+    bottom: -900px;
+    right: 0px;
+    z-index: 1;
+}
+
+.destination3 {
+    position:absolute;
+    width: 500px;
+    bottom: -550px;
+    right: 0;
+    
+}
+
+.destination4 {
+    position:absolute;
+    width: 500px;
+    bottom: -900px;
+    right: 460px;
+    
 }
