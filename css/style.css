@@ -5,7 +5,7 @@ body {
     margin: 0;
     font-family: 'Reem Kufi', sans-serif;
 }
-.Section1 {
+.Hero {
     height: 100vh;
     width: 100%;
     background-image: url(../Images/Background.jpg);
@@ -32,6 +32,7 @@ body {
     padding-right: 140px;
     position: fixed;
     top: 0;
+    z-index: 999;
 }
 
 .nav-bar > .Logo {
@@ -47,50 +48,98 @@ body {
     padding-right: 30px;
 }
 
-.Section2 {
+.Section1 {
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
-.Section2 > p {
+.Section1 > p {
     color: #7BC6E4;
     font-size: 80px;
     padding-left: 140px;
 }
 
-.Polaroid-Col{
+.Polaroid-Col1{
     position: relative;
 }
 
 .destination1 {
     position:absolute;
-    bottom: 0px;
+    bottom: -70px;
     left: 0px;
-    width: 500px;
+    width: 600px;
 }
 
 .destination2 {
     position:absolute;
     width: 500px;
-    bottom: -900px;
+    top: 150px;
     right: 0px;
     z-index: 1;
+    padding-right: 140px;
 }
 
 .destination3 {
     position:absolute;
     width: 500px;
-    bottom: -550px;
-    right: 0;
+    bottom: 0px;
+    right: 470px;
     
 }
 
 .destination4 {
     position:absolute;
     width: 500px;
-    bottom: -900px;
-    right: 460px;
+    bottom: 0px;
+    right: 0px;
+    padding-right: 140px;
     
+}
+
+.Section2 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Section2 > p {
+    color: #7BC6E4;
+    font-size: 80px;
+    padding-right: 140px;
+}
+
+.adventure1 {
+    position:absolute;
+    width: 250px;
+    top: 120px;
+    left: 0;
+    padding-left: 140px;
+}
+
+.adventure2 {
+    position:absolute;
+    width: 450px;
+    top: 120px;
+    left: 400px;
+}
+
+.adventure3 {
+    position:absolute;
+    width: 450px;
+    top: 650px;
+    left: -20px;
+    padding-left: 140px;
+}
+
+.adventure4 {
+    position:absolute;
+    width: 600px;
+    top: 550px;
+    left: 400px;
 }
