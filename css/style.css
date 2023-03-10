@@ -1,3 +1,21 @@
 /*Fonts Are:
 font-family: 'Arapey', serif;
 font-family: 'Reem Kufi', sans-serif;*/
+body {
+    margin: 0;
+}
+.Section1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Images/Background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo {
+    height: 60%;
+}
