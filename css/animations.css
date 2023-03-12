@@ -9,7 +9,7 @@
 }
 
 .Logo {
-    animation: logointro 2.5s;
+    animation: logointro 3.5s;
 }
 
 @keyframes herooutro {
@@ -27,7 +27,7 @@
 
 .Hero {
     animation: herooutro 1.5s;
-    animation-delay: 2.5s;
+    animation-delay: 3.5s;
     animation-fill-mode: forwards;
 }
 
