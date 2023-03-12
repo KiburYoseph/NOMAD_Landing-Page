@@ -26,8 +26,8 @@
 }
 
 .Hero {
-    animation: herooutro 0s;
-    animation-delay: 0s;
+    animation: herooutro 1.5s;
+    animation-delay: 1.5s;
     animation-fill-mode: forwards;
 }
 
