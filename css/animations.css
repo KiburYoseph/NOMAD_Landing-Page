@@ -9,27 +9,44 @@
 }
 
 .Logo {
-    animation: logointro 3.5s;
+    animation: logointro 2s;
 }
 
 @keyframes herooutro {
     0% {
-
+        transform: translateY(0px);
+        
     }
     100% {
         transform: translateY(-1000px);
     }
 }
 
-.navbuttons > h3:hover::after {
-    width: 100%;
+@keyframes introsetup {
+    0% {
+        background-color: black;
+    }
+    100% {
+        max-height: auto;
+
+    }
+}
+
+body {
+    animation: introsetup 10ms;
+    animation-delay: 3.5s;
 }
 
 .Hero {
     animation: herooutro 1.5s;
-    animation-delay: 3.5s;
+    animation-delay: 2.7s;
     animation-fill-mode: forwards;
 }
+
+.navbuttons > h3:hover::after {
+    width: 100%;
+}
+
 
 .destination1:hover {
     transform: rotate(0deg);
