@@ -3,7 +3,7 @@ font-family: 'Arapey', serif;
 font-family: 'Reem Kufi', sans-serif;*/
 body {
     margin: 0;
-    font-family: 'Reem Kufi', sans-serif;
+    font-family: 'Reem Kufi', sans-serif;position: relative;
 }
 .Hero {
     height: 100vh;
@@ -15,6 +15,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    z-index: 1000;
 }
 
 .Logo {
@@ -69,17 +71,16 @@ body {
 .destination1 {
     position:absolute;
     bottom: -70px;
-    left: 0px;
-    width: 600px;
+    left: 120px;
+    width: 300px;
 }
 
 .destination2 {
     position:absolute;
     width: 500px;
     top: 150px;
-    right: 0px;
+    right: 140px;
     z-index: 1;
-    padding-right: 140px;
 }
 
 .destination3 {
@@ -94,9 +95,7 @@ body {
     position:absolute;
     width: 500px;
     bottom: 0px;
-    right: 0px;
-    padding-right: 140px;
-    
+    right: 140px;    
 }
 
 .Section2 {
@@ -118,8 +117,7 @@ body {
     position:absolute;
     width: 250px;
     top: 120px;
-    left: 0;
-    padding-left: 140px;
+    left: 140px;
 }
 
 .adventure2 {
@@ -133,13 +131,116 @@ body {
     position:absolute;
     width: 450px;
     top: 650px;
-    left: -20px;
-    padding-left: 140px;
+    left: 120px;
 }
 
 .adventure4 {
     position:absolute;
-    width: 600px;
+    width: 340px;
     top: 550px;
-    left: 400px;
+    left: 600px;
+}
+
+.Section3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.Section3 > p{
+    color: #7BC6E4;
+    font-size: 80px;
+    padding-left: 140px;
+}
+
+.meeting1 {
+    position:absolute;
+    width: 350px;
+    top: 150px;
+    right: 140px;
+}
+
+.meeting2 {
+    position:absolute;
+    width: 200px;
+    top: 150px;
+    right: 550px;
+}
+
+.meeting3 {
+    position:absolute;
+    width: 250px;
+    top: 500px;
+    right: 140px;
+}
+
+.meeting4 {
+    position:absolute;
+    width: 250px;
+    top: 500px;
+    right: 500px;
+}
+
+.Section4 {
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.Section4 > p{
+    color: #7BC6E4;
+    font-size: 60px;
+    padding-left: 140px;
+    padding-right: 140px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.emailinput {
+    border: transparent;
+    background-color: #7BC6E4;
+    border-radius: 50px;
+    height: 60px;
+    width: 350px;
+    color: white;
+    font-family: 'Reem Kufi', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+.submitbutton {
+    border: transparent;
+    border: transparent;
+    background-color: #7BC6E4;
+    border-radius: 50px;
+    height: 60px;
+    width: 140px;
+    color: white;
+    font-family: 'Reem Kufi', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+img {
+    box-shadow: 3px 7px 10px rgb(124, 124, 124);
 }

@@ -1,0 +1,28 @@
+@keyframes logointro {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.Logo {
+    animation: logointro 2.5s;
+}
+
+@keyframes herooutro {
+    0% {
+
+    }
+    100% {
+        transform: translateY(-1000px);
+    }
+}
+
+.Hero {
+    animation: herooutro 2s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
