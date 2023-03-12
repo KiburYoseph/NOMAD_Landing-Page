@@ -9,7 +9,7 @@
 }
 
 .Logo {
-    animation: logointro 2.5s;
+    animation: logointro 1.5s;
 }
 
 @keyframes herooutro {
@@ -21,8 +21,104 @@
     }
 }
 
+.navbuttons > h3:hover::after {
+    width: 100%;
+}
+
 .Hero {
-    animation: herooutro 2s;
-    animation-delay: 2.5s;
+    animation: herooutro 0s;
+    animation-delay: 0s;
     animation-fill-mode: forwards;
 }
+
+.destination1:hover {
+    transform: rotate(0deg);
+    width: 450px;
+    z-index: 800;
+    bottom: -350px;
+}
+
+.destination2:hover {
+    transform: rotate(0deg);
+    width: 800px;
+    z-index: 800;
+}
+
+.destination3:hover {
+    transform: rotate(0deg);
+    width: 700px;
+    z-index: 800;
+}
+
+.destination3:hover {
+    transform: rotate(0deg);
+    width: 700px;
+    z-index: 800;
+}
+
+.destination4:hover {
+    transform: rotate(0deg);
+    width: 700px;
+    z-index: 800;
+}
+
+.adventure1:hover {
+    transform: rotate(0deg);
+    width: 400px;
+    z-index: 800;
+}
+
+.adventure2:hover {
+    transform: rotate(0deg);
+    width: 600px;
+    z-index: 800;
+}
+
+.adventure3:hover {
+    transform: rotate(0deg);
+    width: 600px;
+    z-index: 800;
+}
+
+.adventure4:hover {
+    transform: rotate(0deg);
+    width: 480px;
+    z-index: 800;
+}
+
+.meeting1:hover {
+    transform: rotate(0deg);
+    width: 660px;
+    z-index: 800;
+}
+
+.meeting2:hover {
+    transform: rotate(0deg);
+    width: 480px;
+    z-index: 800;
+}
+
+.meeting3:hover {
+    transform: rotate(0deg);
+    width: 480px;
+    z-index: 800;
+}
+
+.meeting4:hover {
+    transform: rotate(0deg);
+    width: 500px;
+    z-index: 800;
+}
+
+.submitbutton:hover {
+    background-color: #66aee9;
+}
+
+.submitbutton:active {
+    background-color: #3187ce;
+    background-size: 100%;
+  }
+
+  .Contactcontent > p:hover::after {
+    width: 47%;
+  }

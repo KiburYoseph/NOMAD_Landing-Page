@@ -41,14 +41,33 @@ body {
    height: 90%;
    width: 80px;
    margin-right: auto;
-   padding-left: 140px;
+   padding-left: 200px;
 }
 
-.nav-bar > h3 {
+.navbuttons {
     color: white;
     font-weight: 400;
-    padding-right: 30px;
+    display: flex;
+    gap: 35px;
+    padding-right: 140px;
 }
+
+.navbuttons > h3 {
+    cursor: pointer;
+    position: relative;
+}
+
+.navbuttons >h3::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s;
+}
+
 
 .Section1 {
     height: 100vh;
@@ -60,8 +79,8 @@ body {
 
 .Section1 > p {
     color: #7BC6E4;
-    font-size: 80px;
-    padding-left: 140px;
+    font-size: 70px;
+    padding-left: 200px;
 }
 
 .Polaroid-Col1{
@@ -70,9 +89,11 @@ body {
 
 .destination1 {
     position:absolute;
-    bottom: -70px;
-    left: 120px;
+    bottom: -100px;
+    left: 200px;
     width: 300px;
+    transform: rotate(25deg);
+    transition: 0.5s;
 }
 
 .destination2 {
@@ -80,7 +101,8 @@ body {
     width: 500px;
     top: 150px;
     right: 140px;
-    z-index: 1;
+    transform: rotate(-20deg);
+    transition: 0.5s;
 }
 
 .destination3 {
@@ -88,14 +110,17 @@ body {
     width: 500px;
     bottom: 0px;
     right: 470px;
-    
+    transform: rotate(-10deg);
+    transition: 0.5s;
 }
 
 .destination4 {
     position:absolute;
     width: 500px;
     bottom: 0px;
-    right: 140px;    
+    right: 140px;
+    transform: rotate(10deg);  
+    transition: 0.5s; 
 }
 
 .Section2 {
@@ -109,36 +134,45 @@ body {
 
 .Section2 > p {
     color: #7BC6E4;
-    font-size: 80px;
+    font-size: 70px;
     padding-right: 140px;
+    padding-top: 200px;
 }
 
 .adventure1 {
     position:absolute;
     width: 250px;
-    top: 120px;
-    left: 140px;
+    top: 220px;
+    left: 200px;
+    transform: rotate(20deg);
+    transition: 0.5s;
 }
 
 .adventure2 {
     position:absolute;
     width: 450px;
-    top: 120px;
+    top: 220px;
     left: 400px;
+    transform: rotate(-20deg);
+    transition: 0.5s;
 }
 
 .adventure3 {
     position:absolute;
     width: 450px;
     top: 650px;
-    left: 120px;
+    left: 200px;
+    transform: rotate(-12deg);
+    transition: 0.5s;
 }
 
 .adventure4 {
     position:absolute;
     width: 340px;
-    top: 550px;
+    top: 600px;
     left: 600px;
+    transform: rotate(-20deg);
+    transition: 0.5s;
 }
 
 .Section3 {
@@ -151,36 +185,45 @@ body {
 
 .Section3 > p{
     color: #7BC6E4;
-    font-size: 80px;
-    padding-left: 140px;
+    font-size: 70px;
+    padding-left: 200px;
+    padding-top: 200px;
 }
 
 .meeting1 {
     position:absolute;
-    width: 350px;
+    width: 450px;
     top: 150px;
     right: 140px;
+    transform: rotate(20deg);
+    transition: 0.5s;
 }
 
 .meeting2 {
     position:absolute;
-    width: 200px;
+    width: 300px;
     top: 150px;
     right: 550px;
+    transform: rotate(16deg);
+    transition: 0.5s;
 }
 
 .meeting3 {
     position:absolute;
-    width: 250px;
+    width: 350px;
     top: 500px;
     right: 140px;
+    transform: rotate(-30deg);
+    transition: 0.5s;
 }
 
 .meeting4 {
     position:absolute;
-    width: 250px;
+    width: 350px;
     top: 500px;
     right: 500px;
+    transform: rotate(10deg);
+    transition: 0.5s;
 }
 
 .Section4 {
@@ -197,7 +240,7 @@ body {
 .Section4 > p{
     color: #7BC6E4;
     font-size: 60px;
-    padding-left: 140px;
+    padding-left: 200px;
     padding-right: 140px;
     text-align: center;
 }
@@ -239,8 +282,193 @@ form {
     font-weight: 700;
     font-size: 20px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.destination12 {
+    position:absolute;
+    top: 400px;
+    left: 450px;
+    width: 150px;
+    transform: rotate(25deg);
+    transition: 0.5s;
+}
+
+.destination22 {
+    position:absolute;
+    width: 200px;
+    top: 240px;
+    left: 660px;
+    transform: rotate(-20deg);
+    transition: 0.5s;
+}
+
+.destination32 {
+    position:absolute;
+    width: 200px;
+    bottom: 160px;
+    left: 690px;
+    transform: rotate(-10deg);
+    transition: 0.5s;
+}
+
+.destination42 {
+    position:absolute;
+    width: 200px;
+    bottom: 220px;
+    left: 430px;
+    transform: rotate(10deg);  
+    transition: 0.5s; 
+}
+
+.adventure12 {
+    position:absolute;
+    width: 150px;
+    bottom: 80px;
+    right: 700px;
+    transform: rotate(20deg);
+    transition: 0.5s;
+}
+
+.adventure22 {
+    position:absolute;
+    width: 230px;
+    bottom: 500px;
+    right: 350px;
+    transform: rotate(-20deg);
+    transition: 0.5s;
+}
+
+.adventure32 {
+    position:absolute;
+    width: 230px;
+    bottom: 690px;
+    left: 350px;
+    transform: rotate(-12deg);
+    transition: 0.5s;
+}
+
+.adventure42 {
+    position:absolute;
+    width: 200px;
+    bottom: 120px;
+    right: 510px;
+    transform: rotate(-20deg);
+    transition: 0.5s;
+}
+
+.meeting12 {
+    position:absolute;
+    width: 240px;
+    top: 220px;
+    right: 670px;
+    transform: rotate(20deg);
+    transition: 0.5s;
+}
+
+.meeting22 {
+    position:absolute;
+    width: 180px;
+    top: 240px;
+    right: 450px;
+    transform: rotate(16deg);
+    transition: 0.5s;
+}
+
+.meeting32 {
+    position:absolute;
+    width: 180px;
+    bottom: 300px;
+    left: 320px;
+    transform: rotate(-10deg);
+    transition: 0.5s;
+}
+
+.meeting42 {
+    position:absolute;
+    width: 200px;
+    bottom: 210px;
+    right: 360px;
+    transform: rotate(30deg);
+    transition: 0.5s;
 }
 
 img {
     box-shadow: 3px 7px 10px rgb(124, 124, 124);
 }
+
+.Section5 {
+    color: #ffffff;
+    padding-left: 200px;
+    padding-right: 140px;
+    background-color: #7BC6E4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Section5logo {
+    width: 10em;
+    height: 60%;
+    padding-top: 20px;
+}
+
+.Contactus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contactus > h3 {
+    position: relative;
+    letter-spacing: 2px;
+}
+
+.Contactcontent > p::after {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 12px;
+    transition: 0.5s;
+}
+
+.Contactcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-left: 75px;
+    padding-top: 12px;
+}
+
+.Contactcontent > p {
+    cursor: pointer;
+}
+
+.Contactcontent > img {
+    width: 70px;
+    height: 110px;
+    box-shadow: 0 0 0 0;
+    position: absolute;
+    right: 80px;
+    cursor: pointer;
+}
+
+.Contactcontent > .Instagram {
+    right: 83px; 
+}
+
+.Contactcontent > .Linkedin {
+    right: 77px;
+}
+
+.Imagesfrom {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    letter-spacing: 3px;
+    padding-bottom: 17px;
+}
+
