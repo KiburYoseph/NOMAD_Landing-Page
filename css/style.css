@@ -89,8 +89,8 @@ body {
 
 .destination1 {
     position:absolute;
-    bottom: -100px;
-    left: 200px;
+    top: 110px;
+    right: 650px;
     width: 300px;
     transform: rotate(25deg);
     transition: 0.5s;
@@ -133,7 +133,7 @@ body {
 }
 
 .Section2 > p {
-    color: #7BC6E4;
+    color: #66b6d6;
     font-size: 70px;
     padding-right: 140px;
     padding-top: 200px;
@@ -184,7 +184,7 @@ body {
 }
 
 .Section3 > p{
-    color: #7BC6E4;
+    color: #66b6d6;
     font-size: 70px;
     padding-left: 200px;
     padding-top: 200px;
@@ -238,7 +238,7 @@ body {
 }
 
 .Section4 > p{
-    color: #7BC6E4;
+    color: #66b6d6;
     font-size: 60px;
     padding-left: 200px;
     padding-right: 140px;
@@ -254,7 +254,7 @@ form {
 
 .emailinput {
     border: transparent;
-    background-color: #7BC6E4;
+    background-color: #66b6d6;
     border-radius: 50px;
     height: 60px;
     width: 350px;
@@ -273,7 +273,7 @@ form {
 .submitbutton {
     border: transparent;
     border: transparent;
-    background-color: #7BC6E4;
+    background-color: #66b6d6;
     border-radius: 50px;
     height: 60px;
     width: 140px;
@@ -401,7 +401,7 @@ img {
     color: #ffffff;
     padding-left: 200px;
     padding-right: 140px;
-    background-color: #7BC6E4;
+    background-color: #66b6d6;
     display: flex;
     justify-content: space-between;
 }
