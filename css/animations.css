@@ -39,7 +39,7 @@ body {
 
 .Hero {
     animation: herooutro 1.5s;
-    animation-delay: 0s;
+    animation-delay: 2.7s;
     animation-fill-mode: forwards;
 }
 
